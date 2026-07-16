@@ -21,23 +21,19 @@ This repository contains the official implementation of **YOLO-PMB**, a lightwei
 
 ## 📦 Repository Structure
 .
-├── train.py # Training script
-├── val.py # Validation script
-├── test_env.py # Environment check
-├── test_yaml.py # YAML config tester
-├── track.py # Tracking utility
-├── extra_modules/ # Core module implementations
-│ ├── psconv.py # Pinwheel-shaped Convolution
-│ ├── c2blra.py # C2BLRA (Lightweight Bi-Level Routing Attention)
-│ └── man_faster.py # MAN-Faster (Multi-scale fusion + channel recalibration)
-├── yolo11-PSConv+MAN-Faster+C2BRA.yaml # Full YOLO-PMB configuration
-├── yolo11-PSConv+MAN-Faster.yaml # Ablation: PSConv + MAN-Faster
-├── yolo11-PSConv+c3k2_ETB.yaml # Ablation variant
-├── yolo11-PSConv+c3k2_FDT.yaml # Ablation variant
-├── yolo11n.pt # YOLO11n baseline weights (download separately)
-├── CITATION.cff # Citation metadata
-└── README.md # This file
-
+├── train.py                              # Training script
+├── val.py                                # Validation script
+├── test_env.py                           # Environment check
+├── test_yaml.py                          # YAML config tester
+├── track.py                              # Tracking utility
+├── extra_modules/                        # Core module implementations (PSConv, C2BLRA, MAN-Faster)
+├── yolo11-PSConv+MAN-Faster+C2BRA.yaml   # Full YOLO-PMB configuration
+├── yolo11-PSConv+MAN-Faster.yaml         # Ablation: PSConv + MAN-Faster
+├── yolo11-PSConv+c3k2_ETB.yaml           # Ablation variant
+├── yolo11-PSConv+c3k2_FDT.yaml           # Ablation variant
+├── yolo11n.pt                            # YOLO11n baseline weights (download separately)
+├── CITATION.cff                          # Citation metadata
+└── README.md                             # This file
 
 ---
 
