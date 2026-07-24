@@ -58,13 +58,14 @@ pip install ultralytics==8.3.0
 pip install opencv-python numpy tqdm matplotlib pandas seaborn
 
 
-External References & Acknowledgements
+
+## 📚 External References & Acknowledgements
 
 This project has benefited from the following open-source resources and technical references:
 
-Bilibili Channel "魔鬼面具" (UID: 286900343) – A valuable technical resource for YOLO-series model improvements, providing implementation ideas and tutorial references for commonly used modules such as attention mechanisms and convolutional variants.
-- Associated GitHub Repository: [z1069614715/objectdetection_script](https://github.com/z1069614715/objectdetection_script) – A collection of scripts and improvement strategies for object detection, which served as a technical reference for implementing generic modules in this project.
+- **Bilibili Channel "魔鬼面具" (UID: 286900343)** – A valuable technical resource for YOLO-series model improvements, providing implementation ideas and tutorial references for commonly used modules such as attention mechanisms and convolutional variants.
+- **Associated GitHub Repository: [z1069614715/objectdetection_script](https://github.com/z1069614715/objectdetection_script)** – A collection of scripts and improvement strategies for object detection, which served as a technical reference for implementing generic modules in this project.
 
-Note: The above resources were used only as technical references for implementing publicly available, generic deep learning modules. The YOLO-PMB model architecture and the **position-aware three-stage collaborative deployment strategy proposed in this paper are entirely our original work. The external repository does not contain the YOLO-PMB model or its core innovations.
+> **Note:** The above resources were used **only as technical references** for implementing **publicly available, generic deep learning modules**. The YOLO-PMB model architecture and the **position-aware three-stage collaborative deployment strategy** proposed in this paper are entirely our original work. The external repository does **not** contain the YOLO-PMB model or its core innovations.
 
 We are grateful to the open-source community for making these resources available, which greatly facilitate research in the field of computer vision.
