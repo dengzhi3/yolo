@@ -25,3 +25,6 @@ YOLO-PMB/yolopmb.yaml
 - YOLO-PMB/: official reproduction code
 - extra_modules/: additional experimental modules
 - other yaml files: previous experimental configurations
+
+The root-level scripts are kept for compatibility with previous experiments.
+The official manuscript reproduction uses the scripts under YOLO-PMB/.
